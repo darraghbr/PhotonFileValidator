@@ -177,6 +177,8 @@ public class SaveDialog extends JDialog {
             name = makeFileName(path, name.substring(0, name.length() - 7), ".photon");
         } else if (name.toLowerCase().endsWith(".cbddlp")) {
             name = makeFileName(path, name.substring(0, name.length() - 7), ".cbddlp");
+        } else if (name.toLowerCase().endsWith(".ctb")) {
+            name = makeFileName(path, name.substring(0, name.length() - 7), ".ctb");
 
         } else {
             name = name + "1.photon";

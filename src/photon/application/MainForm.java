@@ -129,7 +129,7 @@ public class MainForm extends BaseForm implements ActionListener, ItemListener {
 
         fc = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter(
-                "Photon & ChiTu files", "photon", "cbddlp");
+                "Photon & ChiTu files", "photon", "cbddlp", "ctb");
         fc.setFileFilter(filter);
 
 
